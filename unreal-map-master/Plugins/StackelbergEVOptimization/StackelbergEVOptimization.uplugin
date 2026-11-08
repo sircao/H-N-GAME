@@ -1,0 +1,17 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0.0",
+    "FriendlyName": "Stackelberg EV Optimization",
+    "Description": "Nested Stackelberg leader-follower and stochastic Wardrop routing optimization for EV traffic.",
+    "Category": "Simulation",
+    "EnabledByDefault": false,
+    "CanContainContent": false,
+    "Modules": [
+        {
+            "Name": "StackelbergEVOptimization",
+            "Type": "Runtime",
+            "LoadingPhase": "PostEngineInit"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+# Research data and generated output are stored in a private repository.
+data/*
+!data/08_publication_figures/
+data/08_publication_figures/*
+!data/08_publication_figures/*.py
+experiments/scientific/
+experiments/results/
+experiments/synthetic_results/
+experiments/visualizations/*.json
+experiments/visualizations/*.png
+experiments/visualizations/*.svg
+supplementary_experiments/results/
+UnrealEngine*/
+.venv*/
+__pycache__/
+.matplotlib/
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+TEMP/
+*.pyc
+*.log
+*.zip
+.env*

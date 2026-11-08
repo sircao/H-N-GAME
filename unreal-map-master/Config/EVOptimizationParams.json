@@ -1,0 +1,34 @@
+{
+"charge_trigger_soc_pct": 18.0,
+"min_soc_drop_for_charge_pct": 22.0,
+"min_charging_participation_rate": 0.08,
+"default_charging_power_kw": 20.0,
+"fallback_target_soc_pct": 60.0,
+"min_charging_duration_hours": 0.03,
+"max_charging_duration_hours": 0.45,
+"night_charge_start_hour": 22.4,
+"night_charge_end_hour": 23.8,
+"morning_departure_floor_hour": 6.2,
+"min_daily_trip_legs": 7,
+"max_daily_trip_legs": 12,
+"min_turnaround_hours": 0.04,
+"max_turnaround_hours": 0.12,
+
+"lamp_on_start_hour": 18.5,
+"lamp_on_end_hour": 22.5,
+"turnaround_ratio": 0.18,
+"min_soc_drop_floor_pct": 6.0,
+"min_vehicle_capacity_kwh": 52.0,
+"min_energy_need_kwh": 1.4,
+"default_station_capacity": 3,
+
+"road_capacity": 30.0,
+"charging_price": 0.82,
+"electricity_price": 0.78,
+
+"behavior_beta_t": 34.0,
+"behavior_lambda": 0.82,
+"behavior_carbon_price": 40.0,
+"behavior_route_choice_model": "Stackelberg-MNL-Wardrop",
+"behavior_charging_decision_rule": "SOC<18% or drop>22% trigger; target 60%; narrow valley-first schedule"
+}
